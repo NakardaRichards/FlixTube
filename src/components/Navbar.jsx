@@ -10,7 +10,7 @@ const Navbar = () => (
       <img src={logo} alt="logo" height={45} />
       <span style={{ color: 'white', marginLeft:'10px', fontFamily:'Inter',fontSize:'25px'}}>FlixTube</span>
     </Link>
-    <Button variant="contained" href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">Github</Button>
+    <Button variant="contained" href="https://github.com/NakardaRichards/FlixTube" target="_blank" rel="noopener noreferrer"  style={{ color: 'white', marginLeft:'10px', fontFamily:'Inter',backgroundColor:'red'}}>Github</Button>
     <SearchBar />
   </Stack>
 );

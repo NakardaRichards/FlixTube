@@ -21,7 +21,7 @@ const Feed = () => {
         <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
         
         <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: "#fff", }}>
-          Copyright © Nakarda Richards
+        <p style={{ fontSize: '8px'}}>&copy; {new Date().getFullYear()} Nakarda Richards. All rights reserved.</p>
         </Typography>
       </Box>
 
